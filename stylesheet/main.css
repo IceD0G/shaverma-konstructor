@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.25s ease-in-out;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+.container-main{
+    padding-top: 80px;
+}
+.container-main-content{
+    display: flex;
+}
+.container-main-content-menu{
+    text-align: center;
+    width: 20%;
+    position: relative;
+}
+.container-main-content-menu-ingredients {
+    padding-top: 0.5em;
+}
+.components___name{
+    position: relative;
+}
+.arrow {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #000000;
+    border-right: 2px solid #000000;
+    transform: rotate(135deg)
+}
+.arrow-rewerb{
+    top: 40%;
+    right: 10%;
+    transform: rotate(-45deg)
+}
+.container-main-content-menu-lavash{
+    display: none;
+}
+.container-main-content-menu-sauces{
+    display: none;
+}
+.container-main-content-menu-ingredients {
+    display: none;
+}
+.container-main-content-menu-ingredients .meat{
+    display: none;
+}
+.container-main-content-menu-ingredients .vegetabls{
+    display: none;
+}
+.show{
+    display: block !important;
+}
+.active{
+    background: #dadada;
+    border-radius: 10px;
+}
+.container-main-content-doska{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lavash-choose{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sauces-choose{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ingridients-choose-meat,
+.ingridients-choose-vegetabls{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ingridients-choose-meat img {
+    position: absolute;
+}
+.ingridients-choose-vegetabls {
+    position: absolute;
+}
+.cucumbers{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    background: url('../src/Ingridients/Vegetabls/cucumbers.png') center center;
+}
+.tomatos {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    background: url('../src/Ingridients/Vegetabls/tomatos.png') no-repeat center center;
+}
+.onion {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    background: url('../src/Ingridients/Vegetabls/onion.png') no-repeat center center;
+}
+.carrot {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    background: url('../src/Ingridients/Vegetabls/carrot.png') no-repeat center center;
+}
+.container-main-content-order{
+    padding: 1em;
+}
